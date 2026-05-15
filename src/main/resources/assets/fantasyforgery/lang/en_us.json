@@ -1,0 +1,20 @@
+{
+  "item.fantasyforgery.terrium_ingot": "Terrium Ingot",
+  "item.fantasyforgery.terrium_shield": "Terrium Shield",
+  "item.fantasyforgery.raw_terrium": "Raw Terrium",
+  "item.fantasyforgery.tinium_ingot": "Tinium Ingot",
+  "item.fantasyforgery.bronzium_ingot": "Bronzium Ingot",
+  "item.fantasyforgery.raw_tinium": "Raw Tinium",
+
+  "block.fantasyforgery.terrium_block": "Terrium Block",
+  "block.fantasyforgery.raw_terrium_block": "Raw Terrium Block",
+  "block.fantasyforgery.terrium_ore": "Terrium Ore",
+  "block.fantasyforgery.deepslate_terrium_ore": "Deepslate Terrium Ore",
+  "block.fantasyforgery.tinium_block": "Tinium Block",
+  "block.fantasyforgery.raw_tinium_block": " Raw Tinium Block",
+  "block.fantasyforgery.tinium_ore": "Tinium Ore",
+  "block.fantasyforgery.bronzium_block": "Bronzium Block",
+
+  "creativetab.fantasyforgery.blocks_tab": "Blocks Tab",
+  "creativetab.fantasyforgery.items_tab": "Items Tab"
+}

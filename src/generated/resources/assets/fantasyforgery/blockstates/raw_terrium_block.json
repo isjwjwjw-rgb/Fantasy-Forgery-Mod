@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fantasyforgery:block/raw_terrium_block"
+    }
+  }
+}
