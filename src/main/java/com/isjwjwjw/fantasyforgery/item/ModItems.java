@@ -31,50 +31,11 @@ public class ModItems {
             () -> new ShieldItem(new Item.Properties()
                     .durability(660)));
 
-    public static final DeferredItem<Item> TINIUM_STONE_PICKAXE = ITEMS.register("tinium_stone_pickaxe",
-            ()-> new TiniumPickaxeItem(Tiers.STONE, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
-                            Tiers.STONE,
-                            1.0F,
-                            -2.8F
-                    )
-            )));
+    public static final DeferredItem<Item> MAGNESIS_INGOT = ITEMS.register("magnesis_ingot",
+            ()-> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> TINIUM_IRON_PICKAXE = ITEMS.register("tinium_iron_pickaxe",
-            ()-> new TiniumPickaxeItem(Tiers.IRON, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
-                            Tiers.IRON,
-                            1.0F,
-                            -2.8F
-                    )
-            )));
-
-    public static final DeferredItem<Item> TINIUM_GOLDEN_PICKAXE = ITEMS.register("tinium_golden_pickaxe",
-            ()-> new TiniumPickaxeItem(Tiers.GOLD, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
-                            Tiers.GOLD,
-                            1.0F,
-                            -2.8F
-                    )
-            )));
-
-    public static final DeferredItem<Item> TINIUM_DIAMOND_PICKAXE = ITEMS.register("tinium_diamond_pickaxe",
-            ()-> new TiniumPickaxeItem(Tiers.DIAMOND, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
-                            Tiers.DIAMOND,
-                            1.0F,
-                            -2.8F
-                    )
-            )));
-
-    public static final DeferredItem<Item> TINIUM_NETHERITE_PICKAXE = ITEMS.register("tinium_netherite_pickaxe",
-            ()-> new TiniumPickaxeItem(Tiers.NETHERITE, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
-                            Tiers.NETHERITE,
-                            1.0F,
-                            -2.8F
-                    )
-            )));
+    public static final DeferredItem<Item> OBSIDIUM_INGOT = ITEMS.register("obsidium_ingot",
+            ()-> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus){

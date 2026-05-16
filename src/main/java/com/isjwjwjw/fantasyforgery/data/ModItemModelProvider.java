@@ -2,6 +2,7 @@ package com.isjwjwjw.fantasyforgery.data;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
 import com.isjwjwjw.fantasyforgery.item.ModItems;
+import com.isjwjwjw.fantasyforgery.item.ModTools;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -23,11 +24,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TINIUM_INGOT.get());
         basicItem(ModItems.RAW_TINIUM.get());
         basicItem(ModItems.BRONZIUM_INGOT.get());
-        handheldItem(ModItems.TINIUM_STONE_PICKAXE);
-        handheldItem(ModItems.TINIUM_IRON_PICKAXE);
-        handheldItem(ModItems.TINIUM_GOLDEN_PICKAXE);
-        handheldItem(ModItems.TINIUM_DIAMOND_PICKAXE);
-        handheldItem(ModItems.TINIUM_NETHERITE_PICKAXE);
+        basicItem(ModItems.MAGNESIS_INGOT.get());
+        basicItem(ModItems.OBSIDIUM_INGOT.get());
+
+        handheldItem(ModTools.TINIUM_STONE_PICKAXE);
+        handheldItem(ModTools.TINIUM_IRON_PICKAXE);
+        handheldItem(ModTools.TINIUM_GOLDEN_PICKAXE);
+        handheldItem(ModTools.TINIUM_DIAMOND_PICKAXE);
+        handheldItem(ModTools.TINIUM_NETHERITE_PICKAXE);
+        handheldItem(ModTools.TINIUM_STONE_SHOVEL);
+        handheldItem(ModTools.TINIUM_IRON_SHOVEL);
+        handheldItem(ModTools.TINIUM_GOLDEN_SHOVEL);
+        handheldItem(ModTools.TINIUM_DIAMOND_SHOVEL);
+        handheldItem(ModTools.TINIUM_NETHERITE_SHOVEL);
     }
 
 

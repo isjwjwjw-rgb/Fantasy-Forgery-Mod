@@ -4,6 +4,7 @@ import com.isjwjwjw.fantasyforgery.block.ModBlocks;
 import com.isjwjwjw.fantasyforgery.data.DataGenerators;
 import com.isjwjwjw.fantasyforgery.item.ModCreativeModeTabs;
 import com.isjwjwjw.fantasyforgery.item.ModItems;
+import com.isjwjwjw.fantasyforgery.item.ModTools;
 import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
 import org.slf4j.Logger;
 
@@ -37,6 +38,7 @@ public class FantasyForgery {
         ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         DataGenerators.register(modEventBus);
+        ModTools.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
