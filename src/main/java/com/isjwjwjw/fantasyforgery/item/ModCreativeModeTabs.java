@@ -46,7 +46,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TINIUM);
                         output.accept(ModItems.BRONZIUM_INGOT);
                         output.accept(ModItems.TERRIUM_SHIELD);
+                    }))
+                    .build());
+
+    public static final Supplier<CreativeModeTab> TOOLS_TAB = CREATIVE_MODE_TAB.register("tools_tab",
+            ()-> CreativeModeTab.builder()
+                    .icon(()-> new ItemStack(ModItems.TINIUM_IRON_PICKAXE.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FantasyForgery.MOD_ID, "items_tab"))
+                    .title(Component.translatable("creativetab.fantasyforgery.tools_tab"))
+                    .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.TINIUM_STONE_PICKAXE);
+                        output.accept(ModItems.TINIUM_IRON_PICKAXE);
+                        output.accept(ModItems.TINIUM_GOLDEN_PICKAXE);
+                        output.accept(ModItems.TINIUM_DIAMOND_PICKAXE);
+                        output.accept(ModItems.TINIUM_NETHERITE_PICKAXE);
                     }))
                     .build());
 

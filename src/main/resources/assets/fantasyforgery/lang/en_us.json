@@ -6,6 +6,10 @@
   "item.fantasyforgery.bronzium_ingot": "Bronzium Ingot",
   "item.fantasyforgery.raw_tinium": "Raw Tinium",
   "item.fantasyforgery.tinium_stone_pickaxe": "Stone Pickaxe",
+  "item.fantasyforgery.tinium_iron_pickaxe": "Iron Pickaxe",
+  "item.fantasyforgery.tinium_golden_pickaxe": "Golden Pickaxe",
+  "item.fantasyforgery.tinium_diamond_pickaxe": "Diamond Pickaxe",
+  "item.fantasyforgery.tinium_netherite_pickaxe": "Netherite Pickaxe",
 
 
   "block.fantasyforgery.terrium_block": "Terrium Block",
@@ -20,5 +24,6 @@
   "block.fantasyforgery.magnesis_block": "Magnesis Block",
 
   "creativetab.fantasyforgery.blocks_tab": "Blocks Tab",
-  "creativetab.fantasyforgery.items_tab": "Items Tab"
+  "creativetab.fantasyforgery.items_tab": "Items Tab",
+  "creativetab.fantasyforgery.tools_tab": "Tools Tab"
 }

@@ -24,6 +24,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_TINIUM.get());
         basicItem(ModItems.BRONZIUM_INGOT.get());
         handheldItem(ModItems.TINIUM_STONE_PICKAXE);
+        handheldItem(ModItems.TINIUM_IRON_PICKAXE);
+        handheldItem(ModItems.TINIUM_GOLDEN_PICKAXE);
+        handheldItem(ModItems.TINIUM_DIAMOND_PICKAXE);
+        handheldItem(ModItems.TINIUM_NETHERITE_PICKAXE);
     }
 
 
