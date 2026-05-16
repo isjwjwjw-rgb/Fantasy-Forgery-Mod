@@ -30,6 +30,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_TINIUM_BLOCK);
                         output.accept(ModBlocks.TINIUM_ORE);
                         output.accept(ModBlocks.BRONZIUM_BLOCK);
+                        output.accept(ModBlocks.OBSIDIUM_BLOCK);
+                        output.accept(ModBlocks.MAGNESIS_BLOCK);
                     }))
                     .build());
     public static final Supplier<CreativeModeTab> ITEMS_TAB = CREATIVE_MODE_TAB.register("items_tab",
@@ -44,6 +46,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TINIUM);
                         output.accept(ModItems.BRONZIUM_INGOT);
                         output.accept(ModItems.TERRIUM_SHIELD);
+                        output.accept(ModItems.TINIUM_STONE_PICKAXE);
                     }))
                     .build());
 

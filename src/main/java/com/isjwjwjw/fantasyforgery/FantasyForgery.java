@@ -4,6 +4,7 @@ import com.isjwjwjw.fantasyforgery.block.ModBlocks;
 import com.isjwjwjw.fantasyforgery.data.DataGenerators;
 import com.isjwjwjw.fantasyforgery.item.ModCreativeModeTabs;
 import com.isjwjwjw.fantasyforgery.item.ModItems;
+import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

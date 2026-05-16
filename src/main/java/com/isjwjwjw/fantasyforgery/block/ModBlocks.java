@@ -65,6 +65,18 @@ public class ModBlocks {
                     .sound(SoundType.METAL)
                     .requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> MAGNESIS_BLOCK = registerBlock("magnesis_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(7.0F, 70.0F)
+                    .sound(SoundType.NETHERITE_BLOCK)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> OBSIDIUM_BLOCK = registerBlock("obsidium_block",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(9.0F, 1200F)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){

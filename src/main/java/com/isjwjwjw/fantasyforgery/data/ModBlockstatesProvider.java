@@ -24,6 +24,8 @@ public class ModBlockstatesProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_TINIUM_BLOCK.get());
         blockWithItem(ModBlocks.TINIUM_ORE.get());
         blockWithItem(ModBlocks.BRONZIUM_BLOCK.get());
+        blockWithItem(ModBlocks.OBSIDIUM_BLOCK.get());
+        blockWithItem(ModBlocks.MAGNESIS_BLOCK.get());
     }
 
     private void blockWithItem(Block block){

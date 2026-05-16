@@ -1,8 +1,11 @@
 package com.isjwjwjw.fantasyforgery.item;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
+import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShieldItem;
+import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -27,6 +30,15 @@ public class ModItems {
     public static final DeferredItem<Item> TERRIUM_SHIELD = ITEMS.register("terrium_shield",
             () -> new ShieldItem(new Item.Properties()
                     .durability(660)));
+
+    public static final DeferredItem<Item> TINIUM_STONE_PICKAXE = ITEMS.register("tinium_stone_pickaxe",
+            ()-> new TiniumPickaxeItem(Tiers.STONE, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.STONE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
 
 
     public static void register(IEventBus eventBus){

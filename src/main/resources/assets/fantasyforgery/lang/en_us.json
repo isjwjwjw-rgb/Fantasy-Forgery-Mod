@@ -5,6 +5,8 @@
   "item.fantasyforgery.tinium_ingot": "Tinium Ingot",
   "item.fantasyforgery.bronzium_ingot": "Bronzium Ingot",
   "item.fantasyforgery.raw_tinium": "Raw Tinium",
+  "item.fantasyforgery.tinium_stone_pickaxe": "Stone Pickaxe",
+
 
   "block.fantasyforgery.terrium_block": "Terrium Block",
   "block.fantasyforgery.raw_terrium_block": "Raw Terrium Block",
@@ -14,6 +16,8 @@
   "block.fantasyforgery.raw_tinium_block": " Raw Tinium Block",
   "block.fantasyforgery.tinium_ore": "Tinium Ore",
   "block.fantasyforgery.bronzium_block": "Bronzium Block",
+  "block.fantasyforgery.obsidium_block": "Obsidium Block",
+  "block.fantasyforgery.magnesis_block": "Magnesis Block",
 
   "creativetab.fantasyforgery.blocks_tab": "Blocks Tab",
   "creativetab.fantasyforgery.items_tab": "Items Tab"
