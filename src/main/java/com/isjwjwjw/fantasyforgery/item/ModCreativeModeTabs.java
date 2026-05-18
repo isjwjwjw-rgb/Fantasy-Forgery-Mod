@@ -72,6 +72,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModTools.TINIUM_GOLDEN_AXE);
                         output.accept(ModTools.TINIUM_DIAMOND_AXE);
                         output.accept(ModTools.TINIUM_NETHERITE_AXE);
+                        output.accept(ModTools.TINIUM_STONE_HOE);
+                        output.accept(ModTools.TINIUM_IRON_HOE);
+                        output.accept(ModTools.TINIUM_GOLDEN_HOE);
+                        output.accept(ModTools.TINIUM_DIAMOND_HOE);
+                        output.accept(ModTools.TINIUM_NETHERITE_HOE);
                     }))
                     .build());
 

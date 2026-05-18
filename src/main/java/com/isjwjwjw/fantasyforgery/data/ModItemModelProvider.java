@@ -17,6 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         super(output, FantasyForgery.MOD_ID, existingFileHelper);
     }
 
+    //sovrascrive il metodo per registrare i modelli
     @Override
     protected void registerModels() {
         basicItem(ModItems.TERRIUM_INGOT.get());
@@ -42,10 +43,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModTools.TINIUM_GOLDEN_AXE);
         handheldItem(ModTools.TINIUM_DIAMOND_AXE);
         handheldItem(ModTools.TINIUM_NETHERITE_AXE);
+        handheldItem(ModTools.TINIUM_STONE_HOE);
+        handheldItem(ModTools.TINIUM_IRON_HOE);
+        handheldItem(ModTools.TINIUM_GOLDEN_HOE);
+        handheldItem(ModTools.TINIUM_DIAMOND_HOE);
+        handheldItem(ModTools.TINIUM_NETHERITE_HOE);
     }
 
 
 
+
+    //metodo di utilità per evitare di scrivere ogni volta "parent": "minecraft:item/handheld"
     private void handheldItem(DeferredItem<Item> Item){
         withExistingParent(Item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",

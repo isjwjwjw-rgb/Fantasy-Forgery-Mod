@@ -18,11 +18,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags(), lookupProvider);
     }
 
+    //sovrascriviamo metodo per le loottables di Minecraft
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
     }
 
+    //genera json files
     @Override
     protected void generate() {
 

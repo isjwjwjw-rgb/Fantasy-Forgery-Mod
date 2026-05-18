@@ -2,8 +2,12 @@ package com.isjwjwjw.fantasyforgery.item;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
 import com.isjwjwjw.fantasyforgery.item.tool.TiniumAxeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.TiniumHoeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.TiniumShovelItem;
+import net.minecraft.world.item.HoeItem;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tiers;
@@ -62,7 +66,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_STONE_SHOVEL = ITEMS.register("tinium_stone_shovel",
             ()-> new TiniumShovelItem(Tiers.STONE, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    ShovelItem.createAttributes(
                             Tiers.STONE,
                             1.0F,
                             -2.8F
@@ -71,7 +75,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_IRON_SHOVEL = ITEMS.register("tinium_iron_shovel",
             ()-> new TiniumShovelItem(Tiers.IRON, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    ShovelItem.createAttributes(
                             Tiers.IRON,
                             1.0F,
                             -2.8F
@@ -80,7 +84,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_GOLDEN_SHOVEL = ITEMS.register("tinium_golden_shovel",
             ()-> new TiniumShovelItem(Tiers.GOLD, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    ShovelItem.createAttributes(
                             Tiers.GOLD,
                             1.0F,
                             -2.8F
@@ -89,7 +93,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_DIAMOND_SHOVEL = ITEMS.register("tinium_diamond_shovel",
             ()-> new TiniumShovelItem(Tiers.DIAMOND, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    ShovelItem.createAttributes(
                             Tiers.DIAMOND,
                             1.0F,
                             -2.8F
@@ -98,7 +102,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_NETHERITE_SHOVEL = ITEMS.register("tinium_netherite_shovel",
             ()-> new TiniumShovelItem(Tiers.NETHERITE, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    ShovelItem.createAttributes(
                             Tiers.NETHERITE,
                             1.0F,
                             -2.8F
@@ -107,7 +111,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_STONE_AXE = ITEMS.register("tinium_stone_axe",
             ()-> new TiniumAxeItem(Tiers.STONE, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    AxeItem.createAttributes(
                             Tiers.STONE,
                             1.0F,
                             -2.8F
@@ -116,7 +120,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_IRON_AXE = ITEMS.register("tinium_iron_axe",
             ()-> new TiniumAxeItem(Tiers.IRON, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    AxeItem.createAttributes(
                             Tiers.IRON,
                             1.0F,
                             -2.8F
@@ -125,7 +129,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_GOLDEN_AXE = ITEMS.register("tinium_golden_axe",
             ()-> new TiniumAxeItem(Tiers.GOLD, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    AxeItem.createAttributes(
                             Tiers.GOLD,
                             1.0F,
                             -2.8F
@@ -134,7 +138,7 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_DIAMOND_AXE = ITEMS.register("tinium_diamond_axe",
             ()-> new TiniumAxeItem(Tiers.DIAMOND, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+                    AxeItem.createAttributes(
                             Tiers.DIAMOND,
                             1.0F,
                             -2.8F
@@ -142,8 +146,53 @@ public class ModTools {
             )));
 
     public static final DeferredItem<Item> TINIUM_NETHERITE_AXE = ITEMS.register("tinium_netherite_axe",
-            ()-> new TiniumAxeItem(Tiers.NETHERITE, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(
+            ()-> new TiniumHoeItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    AxeItem.createAttributes(
+                            Tiers.NETHERITE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_STONE_HOE = ITEMS.register("tinium_stone_hoe",
+            ()-> new TiniumHoeItem(Tiers.STONE, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
+                            Tiers.STONE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_IRON_HOE = ITEMS.register("tinium_iron_hoe",
+            ()-> new TiniumHoeItem(Tiers.IRON, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
+                            Tiers.IRON,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_GOLDEN_HOE = ITEMS.register("tinium_golden_hoe",
+            ()-> new TiniumHoeItem(Tiers.GOLD, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
+                            Tiers.GOLD,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_DIAMOND_HOE = ITEMS.register("tinium_diamond_hoe",
+            ()-> new TiniumHoeItem(Tiers.DIAMOND, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
+                            Tiers.DIAMOND,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_NETHERITE_HOE = ITEMS.register("tinium_netherite_hoe",
+            ()-> new TiniumHoeItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
                             Tiers.NETHERITE,
                             1.0F,
                             -2.8F

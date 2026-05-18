@@ -9,11 +9,16 @@ import net.minecraft.data.recipes.*;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends RecipeProvider {
+
+    //accesso alla classe DataGenerators
     public ModRecipeProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
         super(output, lookupProvider);
     }
+
+    //sovrascriviamo il metodo delle ricette
     @Override
     protected void buildRecipes(RecipeOutput output){
+        //ricetta con forma
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
                 ModBlocks.TERRIUM_BLOCK.get())
                 .pattern("###")
@@ -59,6 +64,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_bronzium_ingot", has(ModItems.BRONZIUM_INGOT.get()))
                 .save(output);
 
+        //ricetta senza forma
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
                 ModItems.TERRIUM_INGOT.get(), 9)
                 .requires(ModBlocks.TERRIUM_BLOCK.get())

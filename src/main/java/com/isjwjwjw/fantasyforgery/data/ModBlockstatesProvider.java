@@ -14,6 +14,8 @@ public class ModBlockstatesProvider extends BlockStateProvider {
         super(output, modid, exFileHelper);
     }
 
+
+    //sovrascriviamo il metodo per registrare simple blockstates e models dei blocchi e blockItems
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.TERRIUM_BLOCK.get());
@@ -28,6 +30,7 @@ public class ModBlockstatesProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.MAGNESIS_BLOCK.get());
     }
 
+    //genera model cubeall
     private void blockWithItem(Block block){
         simpleBlockWithItem(block, cubeAll(block));
     }

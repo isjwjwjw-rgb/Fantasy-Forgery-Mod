@@ -10,6 +10,8 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider{
+
+    //crea nuovo subprovider ovvero ModBlockLootTables
     public static LootTableProvider create(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider){
         return new LootTableProvider(output, Set.of(), List.of(
                 new LootTableProvider.SubProviderEntry(ModBlockLootTables::new, LootContextParamSets.BLOCK)

@@ -12,11 +12,14 @@ import org.jetbrains.annotations.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
+
+    //accesso alla classe DataGenerators
     public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
                                @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, FantasyForgery.MOD_ID, existingFileHelper);
     }
 
+    //sovrascriviamo il metodo per aggiungere i tags di Minecraft ai blocchi custom
     @Override
     protected void addTags(HolderLookup.Provider lookupProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
