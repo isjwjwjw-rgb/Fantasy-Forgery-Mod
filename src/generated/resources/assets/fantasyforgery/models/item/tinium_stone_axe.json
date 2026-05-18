@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fantasyforgery:item/tinium_stone_axe"
+  }
+}

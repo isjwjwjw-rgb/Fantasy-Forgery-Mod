@@ -1,6 +1,7 @@
 package com.isjwjwjw.fantasyforgery.item;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
+import com.isjwjwjw.fantasyforgery.item.tool.TiniumAxeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.TiniumShovelItem;
 import net.minecraft.world.item.Item;
@@ -97,6 +98,51 @@ public class ModTools {
 
     public static final DeferredItem<Item> TINIUM_NETHERITE_SHOVEL = ITEMS.register("tinium_netherite_shovel",
             ()-> new TiniumShovelItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.NETHERITE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_STONE_AXE = ITEMS.register("tinium_stone_axe",
+            ()-> new TiniumAxeItem(Tiers.STONE, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.STONE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_IRON_AXE = ITEMS.register("tinium_iron_axe",
+            ()-> new TiniumAxeItem(Tiers.IRON, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.IRON,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_GOLDEN_AXE = ITEMS.register("tinium_golden_axe",
+            ()-> new TiniumAxeItem(Tiers.GOLD, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.GOLD,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_DIAMOND_AXE = ITEMS.register("tinium_diamond_axe",
+            ()-> new TiniumAxeItem(Tiers.DIAMOND, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.DIAMOND,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TINIUM_NETHERITE_AXE = ITEMS.register("tinium_netherite_axe",
+            ()-> new TiniumAxeItem(Tiers.NETHERITE, new Item.Properties().attributes(
                     PickaxeItem.createAttributes(
                             Tiers.NETHERITE,
                             1.0F,

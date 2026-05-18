@@ -37,6 +37,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModTools.TINIUM_GOLDEN_SHOVEL);
         handheldItem(ModTools.TINIUM_DIAMOND_SHOVEL);
         handheldItem(ModTools.TINIUM_NETHERITE_SHOVEL);
+        handheldItem(ModTools.TINIUM_STONE_AXE);
+        handheldItem(ModTools.TINIUM_IRON_AXE);
+        handheldItem(ModTools.TINIUM_GOLDEN_AXE);
+        handheldItem(ModTools.TINIUM_DIAMOND_AXE);
+        handheldItem(ModTools.TINIUM_NETHERITE_AXE);
     }
 
 
