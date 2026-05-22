@@ -2,10 +2,7 @@ package com.isjwjwjw.fantasyforgery;
 
 import com.isjwjwjw.fantasyforgery.block.ModBlocks;
 import com.isjwjwjw.fantasyforgery.data.DataGenerators;
-import com.isjwjwjw.fantasyforgery.item.ModCreativeModeTabs;
-import com.isjwjwjw.fantasyforgery.item.ModItems;
-import com.isjwjwjw.fantasyforgery.item.ModTools;
-import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
+import com.isjwjwjw.fantasyforgery.item.*;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -38,7 +35,9 @@ public class FantasyForgery {
         ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         DataGenerators.register(modEventBus);
-        ModTools.register(modEventBus);
+        ModTools.ITEMS.register(modEventBus);
+        ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
+        ModArmorItems.ITEMS.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

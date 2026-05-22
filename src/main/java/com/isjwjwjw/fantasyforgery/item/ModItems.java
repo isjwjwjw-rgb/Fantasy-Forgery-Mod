@@ -1,11 +1,8 @@
 package com.isjwjwjw.fantasyforgery.item;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
-import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShieldItem;
-import net.minecraft.world.item.Tiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;

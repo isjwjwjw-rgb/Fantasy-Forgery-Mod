@@ -1,21 +1,22 @@
-package com.isjwjwjw.fantasyforgery.item.tool;
+package com.isjwjwjw.fantasyforgery.item.tool.tinium;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.List;
 
-public class TiniumHoeItem extends HoeItem {
+public class TiniumShovelItem extends ShovelItem {
 
     public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
-    public TiniumHoeItem(Tier p_41336_, Properties p_41339_) {
-        super(p_41336_, p_41339_);
+    public TiniumShovelItem(Tier p_43114_, Properties p_43117_) {
+        super(p_43114_, p_43117_);
     }
+
     @Override
     public float getDestroySpeed(ItemStack stack, BlockState state){
         float baseSpeed = super.getDestroySpeed(stack, state);

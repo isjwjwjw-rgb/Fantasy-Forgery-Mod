@@ -80,6 +80,19 @@ public class ModCreativeModeTabs {
                     }))
                     .build());
 
+    public static final Supplier<CreativeModeTab> COMBAT = CREATIVE_MODE_TAB.register("combat",
+            ()-> CreativeModeTab.builder()
+                    .icon(()-> new ItemStack(ModArmorItems.TERRIUM_HELMET.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FantasyForgery.MOD_ID, "tools_tab"))
+                    .title(Component.translatable("creativetab.fantasyforgery.combat"))
+                    .displayItems(((itemDisplayParameters, output) -> {
+                        output.accept(ModArmorItems.TERRIUM_HELMET);
+                        output.accept(ModArmorItems.TERRIUM_CHESTPLATE);
+                        output.accept(ModArmorItems.TERRIUM_LEGGINGS);
+                        output.accept(ModArmorItems.TERRIUM_BOOTS);
+                    }))
+                    .build());
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }

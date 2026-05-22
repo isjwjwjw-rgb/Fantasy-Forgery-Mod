@@ -1,20 +1,20 @@
-package com.isjwjwjw.fantasyforgery.item.tool;
+package com.isjwjwjw.fantasyforgery.item.tool.tinium;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.List;
 
-public class TiniumShovelItem extends ShovelItem {
+public class TiniumPickaxeItem extends PickaxeItem {
 
     public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
-    public TiniumShovelItem(Tier p_43114_, Properties p_43117_) {
-        super(p_43114_, p_43117_);
+    public TiniumPickaxeItem(Tier p_42961_, Properties p_42964_) {
+        super(p_42961_, p_42964_);
     }
 
     @Override

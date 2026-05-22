@@ -1,6 +1,7 @@
 package com.isjwjwjw.fantasyforgery.data;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
+import com.isjwjwjw.fantasyforgery.item.ModArmorItems;
 import com.isjwjwjw.fantasyforgery.item.ModItems;
 import com.isjwjwjw.fantasyforgery.item.ModTools;
 import net.minecraft.data.PackOutput;
@@ -28,6 +29,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MAGNESIS_INGOT.get());
         basicItem(ModItems.OBSIDIUM_INGOT.get());
 
+        basicItem(ModArmorItems.TERRIUM_HELMET.get());
+        basicItem(ModArmorItems.TERRIUM_CHESTPLATE.get());
+        basicItem(ModArmorItems.TERRIUM_LEGGINGS.get());
+        basicItem(ModArmorItems.TERRIUM_BOOTS.get());
+
         handheldItem(ModTools.TINIUM_STONE_PICKAXE);
         handheldItem(ModTools.TINIUM_IRON_PICKAXE);
         handheldItem(ModTools.TINIUM_GOLDEN_PICKAXE);
@@ -48,6 +54,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModTools.TINIUM_GOLDEN_HOE);
         handheldItem(ModTools.TINIUM_DIAMOND_HOE);
         handheldItem(ModTools.TINIUM_NETHERITE_HOE);
+
+        handheldItem(ModTools.TERRIUM_IRON_PICKAXE);
+        handheldItem(ModTools.TERRIUM_DIAMOND_PICKAXE);
+        handheldItem(ModTools.TERRIUM_NETHERITE_PICKAXE);
     }
 
 

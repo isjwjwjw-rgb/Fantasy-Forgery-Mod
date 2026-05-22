@@ -1,25 +1,21 @@
-package com.isjwjwjw.fantasyforgery.item.tool;
+package com.isjwjwjw.fantasyforgery.item.tool.tinium;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.inventory.tooltip.TooltipComponent;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.state.BlockState;
-import net.neoforged.bus.EventBus;
-import net.neoforged.bus.api.IEventBus;
 
 import java.util.List;
 
-public class TiniumPickaxeItem extends PickaxeItem {
+public class TiniumAxeItem extends AxeItem {
 
     public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
-    public TiniumPickaxeItem(Tier p_42961_, Properties p_42964_) {
-        super(p_42961_, p_42964_);
+    public TiniumAxeItem(Tier p_40521_, Properties p_40524_) {
+        super(p_40521_, p_40524_);
     }
-
     @Override
     public float getDestroySpeed(ItemStack stack, BlockState state){
         float baseSpeed = super.getDestroySpeed(stack, state);

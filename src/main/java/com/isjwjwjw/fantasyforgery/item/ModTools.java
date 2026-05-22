@@ -1,10 +1,11 @@
 package com.isjwjwjw.fantasyforgery.item;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
-import com.isjwjwjw.fantasyforgery.item.tool.TiniumAxeItem;
-import com.isjwjwjw.fantasyforgery.item.tool.TiniumHoeItem;
-import com.isjwjwjw.fantasyforgery.item.tool.TiniumPickaxeItem;
-import com.isjwjwjw.fantasyforgery.item.tool.TiniumShovelItem;
+import com.isjwjwjw.fantasyforgery.item.tool.terrium.TerriumPickaxeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumAxeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumHoeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumPickaxeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumShovelItem;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ShovelItem;
@@ -198,6 +199,35 @@ public class ModTools {
                             -2.8F
                     )
             )));
+
+    public static final DeferredItem<Item> TERRIUM_IRON_PICKAXE = ITEMS.register("terrium_iron_pickaxe",
+            ()-> new TerriumPickaxeItem(Tiers.IRON, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.IRON,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_DIAMOND_PICKAXE = ITEMS.register("terrium_diamond_pickaxe",
+            ()-> new TerriumPickaxeItem(Tiers.DIAMOND, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.DIAMOND,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_NETHERITE_PICKAXE = ITEMS.register("terrium_netherite_pickaxe",
+            ()-> new TerriumPickaxeItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    PickaxeItem.createAttributes(
+                            Tiers.NETHERITE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
