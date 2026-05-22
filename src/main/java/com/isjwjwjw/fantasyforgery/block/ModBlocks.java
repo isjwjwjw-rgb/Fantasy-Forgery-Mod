@@ -77,6 +77,13 @@ public class ModBlocks {
                     .sound(SoundType.METAL)
                     .requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> INFUSER = registerBlock("infuser",
+            ()-> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.5F, 10F)
+                    .sound(SoundType.ANVIL)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){

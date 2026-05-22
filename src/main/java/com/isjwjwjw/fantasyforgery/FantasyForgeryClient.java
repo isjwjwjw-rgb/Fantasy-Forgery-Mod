@@ -2,6 +2,8 @@ package com.isjwjwjw.fantasyforgery;
 
 import com.isjwjwjw.fantasyforgery.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -11,6 +13,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterNamedRenderTypesEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -40,5 +43,12 @@ FantasyForgeryClient {
                             livingEntity != null && livingEntity.isUsingItem() && livingEntity.getUseItem()
                                     == itemStack ? 1.0F:0.0F);
         });
+    }
+
+    @SubscribeEvent
+    public static void onRegisterRenderTypes(RegisterNamedRenderTypesEvent event){
+        event.register(ResourceLocation.fromNamespaceAndPath(FantasyForgery.MOD_ID, "infuser"),
+                RenderType.solid(),
+                Sheets.cutoutBlockSheet());
     }
 }
