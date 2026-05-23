@@ -7,40 +7,66 @@
   "item.fantasyforgery.raw_tinium": "Tinio Grezzo",
   "item.fantasyforgery.magnesis_ingot": "Lingotto di Magnesis",
   "item.fantasyforgery.obsidium_ingot": "Lingotto di Obsidio",
+
   "item.fantasyforgery.tinium_stone_pickaxe": "Piccone di Pietra",
   "item.fantasyforgery.tinium_iron_pickaxe": "Piccone di Ferro",
   "item.fantasyforgery.tinium_golden_pickaxe": "Piccone d'Oro",
   "item.fantasyforgery.tinium_diamond_pickaxe": "Piccone di Diamante",
   "item.fantasyforgery.tinium_netherite_pickaxe": "Piccone di Netherite",
+
   "item.fantasyforgery.tinium_stone_shovel": "Pala di Pietra",
   "item.fantasyforgery.tinium_iron_shovel": "Pala di Ferro",
   "item.fantasyforgery.tinium_golden_shovel": "Pala d'Oro",
   "item.fantasyforgery.tinium_diamond_shovel": "Pala di Diamante",
   "item.fantasyforgery.tinium_netherite_shovel": "Pala di Netherite",
+
   "item.fantasyforgery.tinium_stone_axe": "Ascia di Pietra",
   "item.fantasyforgery.tinium_iron_axe": "Ascia di Ferro",
   "item.fantasyforgery.tinium_golden_axe": "Ascia d'Oro",
   "item.fantasyforgery.tinium_diamond_axe": "Ascia di Diamante",
   "item.fantasyforgery.tinium_netherite_axe": "Ascia di Netherite",
+
   "item.fantasyforgery.tinium_stone_hoe": "Zappa di Pietra",
   "item.fantasyforgery.tinium_iron_hoe": "Zappa di Ferro",
   "item.fantasyforgery.tinium_golden_hoe": "Zappa d'Oro",
   "item.fantasyforgery.tinium_diamond_hoe": "Zappa di Diamante",
   "item.fantasyforgery.tinium_netherite_hoe": "Zappa di Netherite",
 
+  "item.fantasyforgery.terrium_iron_pickaxe": "Piccone di Ferro",
+  "item.fantasyforgery.terrium_diamond_pickaxe": "Piccone di Diamante",
+  "item.fantasyforgery.terrium_netherite_pickaxe": "Piccone di Netherite",
+
+  "item.fantasyforgery.terrium_iron_axe": "Ascia di Ferro",
+  "item.fantasyforgery.terrium_diamond_axe": "Ascia di Diamante",
+  "item.fantasyforgery.terrium_netherite_axe": "Ascia di Netherite",
+
+  "item.fantasyforgery.terrium_iron_shovel": "Pala di Ferro",
+  "item.fantasyforgery.terrium_diamond_shovel": "Pala di Diamante",
+  "item.fantasyforgery.terrium_netherite_shovel": "Pala di Netherite",
+
+  "item.fantasyforgery.terrium_iron_hoe": "Zappa di Ferro",
+  "item.fantasyforgery.terrium_diamond_hoe": "Zappa di Diamante",
+  "item.fantasyforgery.terrium_netherite_hoe": "Zappa di Netherite",
+
+  "item.fantasyforgery.terrium_helmet": "Elmo di Terrio",
+  "item.fantasyforgery.terrium_chestplate": "Corazza di Terrio",
+  "item.fantasyforgery.terrium_leggings": "Gambali di Terrio",
+  "item.fantasyforgery.terrium_boots": "Stivali di Terrio",
 
   "block.fantasyforgery.terrium_block": "Blocco di Terrio",
   "block.fantasyforgery.raw_terrium_block": "Blocco di Terrio Grezzo",
   "block.fantasyforgery.terrium_ore": "Minerale di Terrio",
   "block.fantasyforgery.deepslate_terrium_ore": "Minerale di Terrio in Ardesia",
   "block.fantasyforgery.tinium_block": "Blocco di Tinio",
-  "block.fantasyforgery.raw_tinium_block": " Blocco di Tinio Grezzo",
+  "block.fantasyforgery.raw_tinium_block": "Blocco di Tinio Grezzo",
   "block.fantasyforgery.tinium_ore": "Minerale di Tinio",
   "block.fantasyforgery.bronzium_block": "Blocco di Bronzio",
   "block.fantasyforgery.obsidium_block": "Blocco di Obsidio",
   "block.fantasyforgery.magnesis_block": "Blocco di Magnesis",
+  "block.fantasyforgery.infuser": "Infusore",
 
   "creativetab.fantasyforgery.blocks_tab": "Blocchi",
   "creativetab.fantasyforgery.items_tab": "Oggetti",
-  "creativetab.fantasyforgery.tools_tab": "Strumenti"
+  "creativetab.fantasyforgery.tools_tab": "Strumenti",
+  "creativetab.fantasyforgery.combat": "Combattimento"
 }
