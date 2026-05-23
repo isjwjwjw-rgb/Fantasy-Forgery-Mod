@@ -8,11 +8,11 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "Name": "fantasyforgery:terrium_ore"
+          "Name": "fantasyforgery:tinium_ore"
         }
       }
     ],
-    "size": 6,
+    "size": 11,
     "discard_chance_on_air_exposure": 0.2
   }
 }
