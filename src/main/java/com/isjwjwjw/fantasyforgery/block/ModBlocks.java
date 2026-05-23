@@ -2,11 +2,16 @@ package com.isjwjwjw.fantasyforgery.block;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
 import com.isjwjwjw.fantasyforgery.item.ModItems;
+import com.mojang.serialization.MapCodec;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.placement.PlacementContext;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -78,7 +83,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> INFUSER = registerBlock("infuser",
-            ()-> new Block(BlockBehaviour.Properties.of()
+            ()-> new InfuserBlock(BlockBehaviour.Properties.of()
                     .strength(5.5F, 10F)
                     .sound(SoundType.ANVIL)
                     .requiresCorrectToolForDrops()
