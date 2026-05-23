@@ -20,7 +20,7 @@ The foundation of the mod is set! The latest release introduces the core materia
 
 The project is moving forward using an incremental development approach. Here is what's coming next:
 1.  **Custom Hitboxes:** Refining block models and properties (e.g., the Infuser).
-2.  **Infused Gear:** Upgrading base Terrium items into powerful "Infused" weapon and armor sets.
+2.  **Infused Gear:** Upgrading base items into powerful "Infused" weapon and creating new armor sets made of the materials added in the mod.
 3.  **Advanced Logic & Tools:** Implementing unique weapon mechanics, including a throw-and-return Hammer!
 
 
