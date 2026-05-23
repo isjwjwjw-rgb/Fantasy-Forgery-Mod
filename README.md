@@ -1,25 +1,37 @@
+# ⛏️ [Fantasy Forgery] - A Minecraft Ore Expansion Mod
+===================================
 
-Installation information
-=======
+Welcome to **[Fantasy Forgery]**, a NeoForge mod designed to completely revamp and enrich Minecraft's mining progression. This mod bridges the gaps in vanilla gameplay by introducing a brand-new tier of minerals, ranging from mid-game utilities to powerful end-game gear.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+> ⚠️ **Status: Alpha Testing**
+> This mod is currently in active development and alpha testing. Features are being added incrementally, and balancing is underway!
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+====================================
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## 🚀 Current Features (v3.0 Alpha)
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+The foundation of the mod is set! The latest release introduces the core materials that will drive the mod's custom mechanics:
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+* **New Ores:** Discover **Terrium** and **Tinium** ores generating naturally in your world.
+* **Raw Materials:** Mining these ores drops custom raw variants. 
+* **Creative Mode Ready:** While the survival smelting recipes and advanced mechanics are being cooked up, all materials, items, and armor sets are fully accessible and visible in the **Creative Inventory** for testing!
+
+=====================================
+
+## 🛠️ Upcoming Roadmap
+
+The project is moving forward using an incremental development approach. Here is what's coming next:
+1.  **Custom Hitboxes:** Refining block models and properties (e.g., the Infuser).
+2.  **Infused Gear:** Upgrading base Terrium items into powerful "Infused" weapon and armor sets.
+3.  **Advanced Logic & Tools:** Implementing unique weapon mechanics, including a throw-and-return Hammer!
+
+====================================
+
+## 🔧 Built With
+
+* **Framework:** NeoForge 1.21.1
+* **Language:** Java
+* **Architecture:** Data-Driven Design (JSON tags, recipes, and loot tables)
+
+Feel free to check out the source code, test the alpha releases, and track the progress of the upcoming v1.0.3 ALPHA!
+
