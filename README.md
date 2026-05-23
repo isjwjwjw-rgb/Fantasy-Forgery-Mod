@@ -7,7 +7,7 @@ Welcome to **[Fantasy Forgery]**, a NeoForge mod designed to completely revamp a
 > This mod is currently in active development and alpha testing. Features are being added incrementally, and balancing is underway!
 
 
-## 🚀 Current Features (v3.0 Alpha)
+## 🚀 Current Features (v1.0.2 Alpha)
 
 The foundation of the mod is set! The latest release introduces the core materials that will drive the mod's custom mechanics:
 
