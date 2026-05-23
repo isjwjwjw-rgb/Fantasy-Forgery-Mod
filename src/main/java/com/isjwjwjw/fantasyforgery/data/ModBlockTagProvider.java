@@ -32,7 +32,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TINIUM_ORE.get())
                 .add(ModBlocks.BRONZIUM_BLOCK.get())
                 .add(ModBlocks.OBSIDIUM_BLOCK.get())
-                .add(ModBlocks.MAGNESIS_BLOCK.get());
+                .add(ModBlocks.MAGNESIS_BLOCK.get())
+                .add(ModBlocks.INFUSER.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.OBSIDIUM_BLOCK.get())
@@ -43,7 +44,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_TERRIUM_BLOCK.get())
                 .add(ModBlocks.TERRIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_TERRIUM_ORE.get())
-                .add(ModBlocks.BRONZIUM_BLOCK.get());
+                .add(ModBlocks.BRONZIUM_BLOCK.get())
+                .add(ModBlocks.INFUSER.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.TINIUM_ORE.get())

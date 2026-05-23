@@ -1,10 +1,13 @@
 package com.isjwjwjw.fantasyforgery.data;
 
 import com.isjwjwjw.fantasyforgery.block.ModBlocks;
+import com.isjwjwjw.fantasyforgery.item.ModArmorItems;
 import com.isjwjwjw.fantasyforgery.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.level.block.Blocks;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -93,6 +96,56 @@ public class ModRecipeProvider extends RecipeProvider {
                 ModItems.BRONZIUM_INGOT.get(), 9)
                 .requires(ModBlocks.BRONZIUM_BLOCK.get())
                 .unlockedBy("has_bronzium_block", has(ModBlocks.BRONZIUM_BLOCK.get()))
+                .save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                ModBlocks.INFUSER.get())
+                .pattern("CCC")
+                .pattern(" T ")
+                .pattern("DDD")
+                .define('C', Blocks.COPPER_BLOCK)
+                .define('T', ModBlocks.TERRIUM_BLOCK.get())
+                .define('D', Blocks.DEEPSLATE)
+                .unlockedBy("has_terrium_block", has(ModBlocks.TERRIUM_BLOCK.get()))
+                .save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                ModArmorItems.TERRIUM_HELMET.get())
+                .pattern("#T#")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.TERRIUM_INGOT.get())
+                .define('T', ModBlocks.TERRIUM_BLOCK.get())
+                .unlockedBy("has_terrium_ingot", has(ModItems.TERRIUM_INGOT.get()))
+                .save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                ModArmorItems.TERRIUM_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("#T#")
+                .pattern("###")
+                .define('#', ModItems.TERRIUM_INGOT.get())
+                .define('T', ModBlocks.TERRIUM_BLOCK.get())
+                .unlockedBy("has_terrium_ingot", has(ModItems.TERRIUM_INGOT.get()))
+                .save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                ModArmorItems.TERRIUM_LEGGINGS.get())
+                .pattern("#T#")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.TERRIUM_INGOT.get())
+                .define('T', ModBlocks.TERRIUM_BLOCK.get())
+                .unlockedBy("has_terrium_ingot", has(ModItems.TERRIUM_INGOT.get()))
+                .save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
+                ModArmorItems.TERRIUM_BOOTS.get())
+                .pattern("# #")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.TERRIUM_INGOT.get())
+                .unlockedBy("has_terrium_ingot", has(ModItems.TERRIUM_INGOT.get()))
                 .save(output);
 
     }

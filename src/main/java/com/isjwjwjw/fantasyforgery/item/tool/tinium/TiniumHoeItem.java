@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TiniumHoeItem extends HoeItem {
 
-    public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
+    public static final float TINIUM_EFFICIENCY_BONUS = 5.0F;
     public TiniumHoeItem(Tier p_41336_, Properties p_41339_) {
         super(p_41336_, p_41339_);
     }

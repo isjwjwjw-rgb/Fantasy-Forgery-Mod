@@ -1,7 +1,10 @@
 package com.isjwjwjw.fantasyforgery.item;
 
 import com.isjwjwjw.fantasyforgery.FantasyForgery;
+import com.isjwjwjw.fantasyforgery.item.tool.terrium.TerriumAxeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.terrium.TerriumHoeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.terrium.TerriumPickaxeItem;
+import com.isjwjwjw.fantasyforgery.item.tool.terrium.TerriumShovelItem;
 import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumAxeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumHoeItem;
 import com.isjwjwjw.fantasyforgery.item.tool.tinium.TiniumPickaxeItem;
@@ -221,6 +224,87 @@ public class ModTools {
     public static final DeferredItem<Item> TERRIUM_NETHERITE_PICKAXE = ITEMS.register("terrium_netherite_pickaxe",
             ()-> new TerriumPickaxeItem(Tiers.NETHERITE, new Item.Properties().attributes(
                     PickaxeItem.createAttributes(
+                            Tiers.NETHERITE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_IRON_AXE = ITEMS.register("terrium_iron_axe",
+            ()-> new TerriumAxeItem(Tiers.IRON, new Item.Properties().attributes(
+                    AxeItem.createAttributes(
+                            Tiers.IRON,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_DIAMOND_AXE = ITEMS.register("terrium_diamond_axe",
+            ()-> new TerriumAxeItem(Tiers.DIAMOND, new Item.Properties().attributes(
+                    AxeItem.createAttributes(
+                            Tiers.DIAMOND,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_NETHERITE_AXE = ITEMS.register("terrium_netherite_axe",
+            ()-> new TerriumAxeItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    AxeItem.createAttributes(
+                            Tiers.NETHERITE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_IRON_SHOVEL = ITEMS.register("terrium_iron_shovel",
+            () -> new TerriumShovelItem(Tiers.IRON, new Item.Properties().attributes(
+                    ShovelItem.createAttributes(
+                            Tiers.IRON,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_DIAMOND_SHOVEL = ITEMS.register("terrium_diamond_shovel",
+            () -> new TerriumShovelItem(Tiers.DIAMOND, new Item.Properties().attributes(
+                    ShovelItem.createAttributes(
+                            Tiers.DIAMOND,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_NETHERITE_SHOVEL = ITEMS.register("terrium_netherite_shovel",
+            () -> new TerriumShovelItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    ShovelItem.createAttributes(
+                            Tiers.NETHERITE,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_IRON_HOE = ITEMS.register("terrium_iron_hoe",
+            () -> new TerriumHoeItem(Tiers.IRON, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
+                            Tiers.IRON,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_DIAMOND_HOE = ITEMS.register("terrium_diamond_hoe",
+            () -> new TerriumHoeItem(Tiers.DIAMOND, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
+                            Tiers.DIAMOND,
+                            1.0F,
+                            -2.8F
+                    )
+            )));
+
+    public static final DeferredItem<Item> TERRIUM_NETHERITE_HOE = ITEMS.register("terrium_netherite_hoe",
+            () -> new TerriumHoeItem(Tiers.NETHERITE, new Item.Properties().attributes(
+                    HoeItem.createAttributes(
                             Tiers.NETHERITE,
                             1.0F,
                             -2.8F

@@ -58,6 +58,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModTools.TERRIUM_IRON_PICKAXE);
         handheldItem(ModTools.TERRIUM_DIAMOND_PICKAXE);
         handheldItem(ModTools.TERRIUM_NETHERITE_PICKAXE);
+        handheldItem(ModTools.TERRIUM_IRON_AXE);
+        handheldItem(ModTools.TERRIUM_DIAMOND_AXE);
+        handheldItem(ModTools.TERRIUM_NETHERITE_AXE);
+        handheldItem(ModTools.TERRIUM_IRON_SHOVEL);
+        handheldItem(ModTools.TERRIUM_DIAMOND_SHOVEL);
+        handheldItem(ModTools.TERRIUM_NETHERITE_SHOVEL);
+        handheldItem(ModTools.TERRIUM_IRON_HOE);
+        handheldItem(ModTools.TERRIUM_DIAMOND_HOE);
+        handheldItem(ModTools.TERRIUM_NETHERITE_HOE);
     }
 
 

@@ -78,6 +78,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModTools.TINIUM_GOLDEN_HOE);
                         output.accept(ModTools.TINIUM_DIAMOND_HOE);
                         output.accept(ModTools.TINIUM_NETHERITE_HOE);
+                        output.accept(ModTools.TERRIUM_IRON_PICKAXE);
+                        output.accept(ModTools.TERRIUM_IRON_AXE);
+                        output.accept(ModTools.TERRIUM_IRON_SHOVEL);
+                        output.accept(ModTools.TERRIUM_IRON_HOE);
+                        output.accept(ModTools.TERRIUM_DIAMOND_PICKAXE);
+                        output.accept(ModTools.TERRIUM_DIAMOND_AXE);
+                        output.accept(ModTools.TERRIUM_DIAMOND_SHOVEL);
+                        output.accept(ModTools.TERRIUM_DIAMOND_HOE);
+                        output.accept(ModTools.TERRIUM_NETHERITE_PICKAXE);
+                        output.accept(ModTools.TERRIUM_NETHERITE_AXE);
+                        output.accept(ModTools.TERRIUM_NETHERITE_SHOVEL);
+                        output.accept(ModTools.TERRIUM_NETHERITE_HOE);
                     }))
                     .build());
 

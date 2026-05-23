@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TiniumPickaxeItem extends PickaxeItem {
 
-    public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
+    public static final float TINIUM_EFFICIENCY_BONUS = 5.0F;
     public TiniumPickaxeItem(Tier p_42961_, Properties p_42964_) {
         super(p_42961_, p_42964_);
     }

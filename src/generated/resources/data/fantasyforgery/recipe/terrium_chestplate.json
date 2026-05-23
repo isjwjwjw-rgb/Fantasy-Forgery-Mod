@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "fantasyforgery:terrium_ingot"
+    },
+    "T": {
+      "item": "fantasyforgery:terrium_block"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#T#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fantasyforgery:terrium_chestplate"
+  }
+}

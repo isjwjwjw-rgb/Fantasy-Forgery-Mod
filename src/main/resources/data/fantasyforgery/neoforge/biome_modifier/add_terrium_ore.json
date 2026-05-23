@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "fantasyforgery:terrium_ore",
+    "fantasyforgery:deepslate_terrium_ore"
+  ],
+  "step": "underground_ores"
+}

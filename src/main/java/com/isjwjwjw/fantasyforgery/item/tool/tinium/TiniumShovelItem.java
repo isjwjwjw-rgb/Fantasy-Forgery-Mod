@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TiniumShovelItem extends ShovelItem {
 
-    public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
+    public static final float TINIUM_EFFICIENCY_BONUS = 5.0F;
     public TiniumShovelItem(Tier p_43114_, Properties p_43117_) {
         super(p_43114_, p_43117_);
     }

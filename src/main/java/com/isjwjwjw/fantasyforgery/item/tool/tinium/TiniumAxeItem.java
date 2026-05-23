@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TiniumAxeItem extends AxeItem {
 
-    public static final float TINIUM_EFFICIENCY_BONUS = 3.0F;
+    public static final float TINIUM_EFFICIENCY_BONUS = 5.0F;
     public TiniumAxeItem(Tier p_40521_, Properties p_40524_) {
         super(p_40521_, p_40524_);
     }

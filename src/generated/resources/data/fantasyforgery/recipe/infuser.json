@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "T": {
+      "item": "fantasyforgery:terrium_block"
+    }
+  },
+  "pattern": [
+    "CCC",
+    " T ",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fantasyforgery:infuser"
+  }
+}
