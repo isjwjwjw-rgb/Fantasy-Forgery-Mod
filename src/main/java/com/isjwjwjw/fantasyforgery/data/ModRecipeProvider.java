@@ -83,12 +83,6 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_raw_tinium_block", has(ModBlocks.RAW_TINIUM_BLOCK.get()))
                 .save(output);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
-                ModItems.BRONZIUM_INGOT.get(), 9)
-                .requires(ModBlocks.BRONZIUM_BLOCK.get())
-                .unlockedBy("has_bronzium_block", has(ModBlocks.BRONZIUM_BLOCK.get()))
-                .save(output);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
                 ModBlocks.INFUSER.get())
                 .pattern("CCC")
