@@ -3,10 +3,7 @@
   "item.fantasyforgery.terrium_shield": "Terrium Shield",
   "item.fantasyforgery.raw_terrium": "Raw Terrium",
   "item.fantasyforgery.tinium_ingot": "Tinium Ingot",
-  "item.fantasyforgery.bronzium_ingot": "Bronzium Ingot",
   "item.fantasyforgery.raw_tinium": "Raw Tinium",
-  "item.fantasyforgery.magnesis_ingot": "Magnesis Ingot",
-  "item.fantasyforgery.obsidium_ingot": "Obsidium Ingot",
 
   "item.fantasyforgery.tinium_stone_pickaxe": "Stone Pickaxe",
   "item.fantasyforgery.tinium_iron_pickaxe": "Iron Pickaxe",
@@ -52,9 +49,6 @@
   "block.fantasyforgery.tinium_block": "Tinium Block",
   "block.fantasyforgery.raw_tinium_block": " Raw Tinium Block",
   "block.fantasyforgery.tinium_ore": "Tinium Ore",
-  "block.fantasyforgery.bronzium_block": "Bronzium Block",
-  "block.fantasyforgery.obsidium_block": "Obsidium Block",
-  "block.fantasyforgery.magnesis_block": "Magnesis Block",
   "block.fantasyforgery.infuser": "Infuser",
 
   "item.fantasyforgery.terrium_helmet": "Terrium Helmet",

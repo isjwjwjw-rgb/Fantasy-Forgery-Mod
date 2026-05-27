@@ -25,9 +25,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_TERRIUM.get());
         basicItem(ModItems.TINIUM_INGOT.get());
         basicItem(ModItems.RAW_TINIUM.get());
-        basicItem(ModItems.BRONZIUM_INGOT.get());
-        basicItem(ModItems.MAGNESIS_INGOT.get());
-        basicItem(ModItems.OBSIDIUM_INGOT.get());
 
         basicItem(ModArmorItems.TERRIUM_HELMET.get());
         basicItem(ModArmorItems.TERRIUM_CHESTPLATE.get());

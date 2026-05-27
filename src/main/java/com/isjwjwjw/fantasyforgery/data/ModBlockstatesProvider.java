@@ -22,12 +22,9 @@ public class ModBlockstatesProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_TERRIUM_BLOCK.get());
         blockWithItem(ModBlocks.TERRIUM_ORE.get());
         blockWithItem(ModBlocks.DEEPSLATE_TERRIUM_ORE.get());
+        blockWithItem(ModBlocks.TINIUM_ORE.get());
         blockWithItem(ModBlocks.TINIUM_BLOCK.get());
         blockWithItem(ModBlocks.RAW_TINIUM_BLOCK.get());
-        blockWithItem(ModBlocks.TINIUM_ORE.get());
-        blockWithItem(ModBlocks.BRONZIUM_BLOCK.get());
-        blockWithItem(ModBlocks.OBSIDIUM_BLOCK.get());
-        blockWithItem(ModBlocks.MAGNESIS_BLOCK.get());
     }
 
     //genera model cubeall

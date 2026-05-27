@@ -3,10 +3,7 @@
   "item.fantasyforgery.terrium_shield": "Scudo di Terrio",
   "item.fantasyforgery.raw_terrium": "Terrio Grezzo",
   "item.fantasyforgery.tinium_ingot": "Lingotto di Tinio",
-  "item.fantasyforgery.bronzium_ingot": "Lingotto di Bronzio",
   "item.fantasyforgery.raw_tinium": "Tinio Grezzo",
-  "item.fantasyforgery.magnesis_ingot": "Lingotto di Magnesis",
-  "item.fantasyforgery.obsidium_ingot": "Lingotto di Obsidio",
 
   "item.fantasyforgery.tinium_stone_pickaxe": "Piccone di Pietra",
   "item.fantasyforgery.tinium_iron_pickaxe": "Piccone di Ferro",
@@ -60,9 +57,6 @@
   "block.fantasyforgery.tinium_block": "Blocco di Tinio",
   "block.fantasyforgery.raw_tinium_block": "Blocco di Tinio Grezzo",
   "block.fantasyforgery.tinium_ore": "Minerale di Tinio",
-  "block.fantasyforgery.bronzium_block": "Blocco di Bronzio",
-  "block.fantasyforgery.obsidium_block": "Blocco di Obsidio",
-  "block.fantasyforgery.magnesis_block": "Blocco di Magnesis",
   "block.fantasyforgery.infuser": "Infusore",
 
   "creativetab.fantasyforgery.blocks_tab": "Blocchi",

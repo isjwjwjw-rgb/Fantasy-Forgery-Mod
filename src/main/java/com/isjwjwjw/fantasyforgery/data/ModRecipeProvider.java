@@ -58,15 +58,6 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_raw_tinium", has(ModItems.RAW_TINIUM.get()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,
-                ModBlocks.BRONZIUM_BLOCK.get())
-                .pattern("###")
-                .pattern("###")
-                .pattern("###")
-                .define('#', ModItems.BRONZIUM_INGOT.get())
-                .unlockedBy("has_bronzium_ingot", has(ModItems.BRONZIUM_INGOT.get()))
-                .save(output);
-
         //ricetta senza forma
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,
                 ModItems.TERRIUM_INGOT.get(), 9)

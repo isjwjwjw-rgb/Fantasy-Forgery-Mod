@@ -33,9 +33,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_TERRIUM_BLOCK.get());
         dropSelf(ModBlocks.TINIUM_BLOCK.get());
         dropSelf(ModBlocks.RAW_TINIUM_BLOCK.get());
-        dropSelf(ModBlocks.BRONZIUM_BLOCK.get());
-        dropSelf(ModBlocks.OBSIDIUM_BLOCK.get());
-        dropSelf(ModBlocks.MAGNESIS_BLOCK.get());
         dropSelf(ModBlocks.INFUSER.get());
 
 

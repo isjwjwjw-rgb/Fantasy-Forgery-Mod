@@ -29,9 +29,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TINIUM_BLOCK);
                         output.accept(ModBlocks.RAW_TINIUM_BLOCK);
                         output.accept(ModBlocks.TINIUM_ORE);
-                        output.accept(ModBlocks.BRONZIUM_BLOCK);
-                        output.accept(ModBlocks.OBSIDIUM_BLOCK);
-                        output.accept(ModBlocks.MAGNESIS_BLOCK);
                         output.accept(ModBlocks.INFUSER);
                     }))
                     .build());
@@ -45,9 +42,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TERRIUM);
                         output.accept(ModItems.TINIUM_INGOT);
                         output.accept(ModItems.RAW_TINIUM);
-                        output.accept(ModItems.BRONZIUM_INGOT);
-                        output.accept(ModItems.MAGNESIS_INGOT);
-                        output.accept(ModItems.OBSIDIUM_INGOT);
                         output.accept(ModItems.TERRIUM_SHIELD);
                     }))
                     .build());
