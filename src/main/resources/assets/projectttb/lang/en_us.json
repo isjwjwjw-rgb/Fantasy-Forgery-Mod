@@ -1,0 +1,78 @@
+{
+  "item.projectttb.terrium_ingot": "Terrium Ingot",
+  "item.projectttb.terrium_shield": "Terrium Shield",
+  "item.projectttb.raw_terrium": "Raw Terrium",
+  "item.projectttb.tinium_ingot": "Tinium Ingot",
+  "item.projectttb.raw_tinium": "Raw Tinium",
+  "item.projectttb.bronzium_ingot": "Bronzium Ingot",
+
+  "item.projectttb.tinium_stone_pickaxe": "Stone Pickaxe",
+  "item.projectttb.tinium_iron_pickaxe": "Iron Pickaxe",
+  "item.projectttb.tinium_golden_pickaxe": "Golden Pickaxe",
+  "item.projectttb.tinium_diamond_pickaxe": "Diamond Pickaxe",
+  "item.projectttb.tinium_netherite_pickaxe": "Netherite Pickaxe",
+
+  "item.projectttb.tinium_stone_shovel": "Stone Shovel",
+  "item.projectttb.tinium_iron_shovel": "Iron Shovel",
+  "item.projectttb.tinium_golden_shovel": "Golden Shovel",
+  "item.projectttb.tinium_diamond_shovel": "Diamond Shovel",
+  "item.projectttb.tinium_netherite_shovel": "Netherite Shovel",
+
+  "item.projectttb.tinium_stone_axe": "Stone Axe",
+  "item.projectttb.tinium_iron_axe": "Iron Axe",
+  "item.projectttb.tinium_golden_axe": "Golden Axe",
+  "item.projectttb.tinium_diamond_axe": "Diamond Axe",
+  "item.projectttb.tinium_netherite_axe": "Netherite Axe",
+
+  "item.projectttb.tinium_stone_hoe": "Stone Hoe",
+  "item.projectttb.tinium_iron_hoe": "Iron Hoe",
+  "item.projectttb.tinium_golden_hoe": "Golden Hoe",
+  "item.projectttb.tinium_diamond_hoe": "Diamond Hoe",
+  "item.projectttb.tinium_netherite_hoe": "Netherite Hoe",
+
+  "item.projectttb.terrium_iron_pickaxe": "Iron Pickaxe",
+  "item.projectttb.terrium_diamond_pickaxe": "Diamond Pickaxe",
+  "item.projectttb.terrium_netherite_pickaxe": "Netherite Pickaxe",
+
+  "item.projectttb.terrium_iron_axe": "Iron Axe",
+  "item.projectttb.terrium_diamond_axe": "Diamond Axe",
+  "item.projectttb.terrium_netherite_axe": "Netherite Axe",
+
+  "item.projectttb.terrium_iron_shovel": "Iron Shovel",
+  "item.projectttb.terrium_diamond_shovel": "Diamond Shovel",
+  "item.projectttb.terrium_netherite_shovel": "Netherite Shovel",
+
+  "item.projectttb.terrium_iron_hoe": "Iron Hoe",
+  "item.projectttb.terrium_diamond_hoe": "Diamond Hoe",
+  "item.projectttb.terrium_netherite_hoe": "Netherite Hoe",
+
+  "block.projectttb.terrium_block": "Terrium Block",
+  "block.projectttb.raw_terrium_block": "Raw Terrium Block",
+  "block.projectttb.terrium_ore": "Terrium Ore",
+  "block.projectttb.deepslate_terrium_ore": "Deepslate Terrium Ore",
+  "block.projectttb.tinium_block": "Tinium Block",
+  "block.projectttb.raw_tinium_block": " Raw Tinium Block",
+  "block.projectttb.tinium_ore": "Tinium Ore",
+  "block.projectttb.bronzium_block": "Bronzium Block",
+  "block.projectttb.infuser": "Infuser",
+
+  "item.projectttb.terrium_helmet": "Terrium Helmet",
+  "item.projectttb.terrium_chestplate": "Terrium Chestplate",
+  "item.projectttb.terrium_leggings": "Terrium Leggings",
+  "item.projectttb.terrium_boots": "Terrium Boots",
+
+  "item.projectttb.tinium_helmet": "Tinium Helmet",
+  "item.projectttb.tinium_chestplate": "Tinium Chestplate",
+  "item.projectttb.tinium_leggings": "Tinium Leggings",
+  "item.projectttb.tinium_boots": "Tinium Boots",
+
+  "item.projectttb.upgrade_pickaxe": "Tools Upgrade Smithing Template",
+  "item.projectttb.upgrade_axe": "Tools Upgrade Smithing Template",
+  "item.projectttb.upgrade_shovel": "Tools Upgrade Smithing Template",
+  "item.projectttb.upgrade_hoe": "Tools Upgrade Smithing Template",
+
+  "creativetab.projectttb.blocks_tab": "Blocks",
+  "creativetab.projectttb.items_tab": "Items",
+  "creativetab.projectttb.tools_tab": "Tools",
+  "creativetab.projectttb.combat": "Combat"
+}

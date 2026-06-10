@@ -1,0 +1,68 @@
+{
+  "item.projectttb.terrium_ingot": "Lingotto di Terrio",
+  "item.projectttb.terrium_shield": "Scudo di Terrio",
+  "item.projectttb.raw_terrium": "Terrio Grezzo",
+  "item.projectttb.tinium_ingot": "Lingotto di Tinio",
+  "item.projectttb.raw_tinium": "Tinio Grezzo",
+  "item.projectttb.bronzium_ingot": "Bronzium Ingot",
+
+  "item.projectttb.tinium_stone_pickaxe": "Piccone di Pietra",
+  "item.projectttb.tinium_iron_pickaxe": "Piccone di Ferro",
+  "item.projectttb.tinium_golden_pickaxe": "Piccone d'Oro",
+  "item.projectttb.tinium_diamond_pickaxe": "Piccone di Diamante",
+  "item.projectttb.tinium_netherite_pickaxe": "Piccone di Netherite",
+
+  "item.projectttb.tinium_stone_shovel": "Pala di Pietra",
+  "item.projectttb.tinium_iron_shovel": "Pala di Ferro",
+  "item.projectttb.tinium_golden_shovel": "Pala d'Oro",
+  "item.projectttb.tinium_diamond_shovel": "Pala di Diamante",
+  "item.projectttb.tinium_netherite_shovel": "Pala di Netherite",
+
+  "item.projectttb.tinium_stone_axe": "Ascia di Pietra",
+  "item.projectttb.tinium_iron_axe": "Ascia di Ferro",
+  "item.projectttb.tinium_golden_axe": "Ascia d'Oro",
+  "item.projectttb.tinium_diamond_axe": "Ascia di Diamante",
+  "item.projectttb.tinium_netherite_axe": "Ascia di Netherite",
+
+  "item.projectttb.tinium_stone_hoe": "Zappa di Pietra",
+  "item.projectttb.tinium_iron_hoe": "Zappa di Ferro",
+  "item.projectttb.tinium_golden_hoe": "Zappa d'Oro",
+  "item.projectttb.tinium_diamond_hoe": "Zappa di Diamante",
+  "item.projectttb.tinium_netherite_hoe": "Zappa di Netherite",
+
+  "item.projectttb.terrium_iron_pickaxe": "Piccone di Ferro",
+  "item.projectttb.terrium_diamond_pickaxe": "Piccone di Diamante",
+  "item.projectttb.terrium_netherite_pickaxe": "Piccone di Netherite",
+
+  "item.projectttb.terrium_iron_axe": "Ascia di Ferro",
+  "item.projectttb.terrium_diamond_axe": "Ascia di Diamante",
+  "item.projectttb.terrium_netherite_axe": "Ascia di Netherite",
+
+  "item.projectttb.terrium_iron_shovel": "Pala di Ferro",
+  "item.projectttb.terrium_diamond_shovel": "Pala di Diamante",
+  "item.projectttb.terrium_netherite_shovel": "Pala di Netherite",
+
+  "item.projectttb.terrium_iron_hoe": "Zappa di Ferro",
+  "item.projectttb.terrium_diamond_hoe": "Zappa di Diamante",
+  "item.projectttb.terrium_netherite_hoe": "Zappa di Netherite",
+
+  "item.projectttb.terrium_helmet": "Elmo di Terrio",
+  "item.projectttb.terrium_chestplate": "Corazza di Terrio",
+  "item.projectttb.terrium_leggings": "Gambali di Terrio",
+  "item.projectttb.terrium_boots": "Stivali di Terrio",
+
+  "block.projectttb.terrium_block": "Blocco di Terrio",
+  "block.projectttb.raw_terrium_block": "Blocco di Terrio Grezzo",
+  "block.projectttb.terrium_ore": "Minerale di Terrio",
+  "block.projectttb.deepslate_terrium_ore": "Minerale di Terrio in Ardesia",
+  "block.projectttb.tinium_block": "Blocco di Tinio",
+  "block.projectttb.raw_tinium_block": "Blocco di Tinio Grezzo",
+  "block.projectttb.tinium_ore": "Minerale di Tinio",
+  "block.projectttb.bronzium_block": "Bronzium Block",
+  "block.projectttb.infuser": "Infusore",
+
+  "creativetab.projectttb.blocks_tab": "Blocchi",
+  "creativetab.projectttb.items_tab": "Oggetti",
+  "creativetab.projectttb.tools_tab": "Strumenti",
+  "creativetab.projectttb.combat": "Combattimento"
+}

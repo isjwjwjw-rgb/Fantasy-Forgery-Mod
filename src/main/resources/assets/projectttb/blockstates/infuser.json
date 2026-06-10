@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "projectttb:block/infuser"
+    },
+    "facing=south": {
+      "model": "projectttb:block/infuser", "y": 180
+    },
+    "facing=east":  {
+      "model": "projectttb:block/infuser", "y": 90
+    },
+    "facing=west":
+    { "model": "projectttb:block/infuser", "y": 270
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "fantasyforgery:item/tinium_iron_hoe"
-  }
-}
