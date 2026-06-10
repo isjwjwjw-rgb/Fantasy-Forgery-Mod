@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "projectttb:terrium_ingot"
+    },
+    "T": {
+      "item": "projectttb:terrium_block"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#T#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "projectttb:terrium_chestplate"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "projectttb:tinium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "projectttb:tinium_ingot"
+  }
+}

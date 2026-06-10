@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "projectttb:item/tinium_iron_pickaxe"
+  }
+}

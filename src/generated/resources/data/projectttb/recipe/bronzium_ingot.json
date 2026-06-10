@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "projectttb:bronzium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "projectttb:bronzium_ingot"
+  }
+}

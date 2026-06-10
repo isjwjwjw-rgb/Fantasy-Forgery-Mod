@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "projectttb:raw_tinium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "projectttb:raw_tinium"
+  }
+}

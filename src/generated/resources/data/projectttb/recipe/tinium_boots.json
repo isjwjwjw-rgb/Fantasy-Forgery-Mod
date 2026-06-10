@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "projectttb:tinium_ingot"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "projectttb:tinium_boots"
+  }
+}
